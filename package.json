@@ -1,0 +1,29 @@
+{
+  "name": "myblog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "git@github.com:TomHumXanh/NodeJs.git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TomHumXanh/NodeJs.git"
+  },
+  "keywords": [
+    "FirsBlog"
+  ],
+  "author": "H.anh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomHumXanh/NodeJs/issues"
+  },
+  "homepage": "https://github.com/TomHumXanh/NodeJs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
